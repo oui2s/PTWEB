@@ -88,6 +88,11 @@ img { max-width: 100%; }
   outline: none;
 }
 
+.tkt {
+    color:goldenrod;
+    font-size: 18px;
+}
+
 /*----------------------------------------- 2) Preloader --------------------------------------------------*/
 #preloader {
   position: fixed;
@@ -149,8 +154,8 @@ img { max-width: 100%; }
   left: 0;
 }
 /*----- background ------*/
-.grey-bg {
-  background: #f6f6f6;
+.gold-bg {
+  background: #FFFAF0;
   padding: 120px 0;
   display: block;
 }
@@ -223,6 +228,7 @@ img { max-width: 100%; }
   transition: all 0.3s;
   width: 45px;
   display: block;
+margin-top: -4px;
 }
 .opacity-nav {
   opacity: 0.8;
@@ -503,6 +509,10 @@ p {
 
 }
 
+h4{
+    color: goldenrod;
+}
+
 /*----------------------------------------- 6) Hero --------------------------------------------------*/
 #home {
   background: url('../images/hero-bg.jpg');
@@ -746,6 +756,7 @@ ul.portfolio-image li .desc{
   padding: 30px 35px 45px 35px;
   margin-bottom: 30px;
   border: 1px solid rgba(129, 129, 129, 0.1);
+  height:80vh;
 }
 .card:before,
 .card:after {
